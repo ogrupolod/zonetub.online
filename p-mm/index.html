@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SPECIALIST Reveals a Simple Honey Recipe You Can Make at Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+
+
+  <style>
+    :root {
+      --bg: #f9f6f6;
+      /* fundo claro */
+      --ink: #222222;
+      --brand: #a60b0d;
+      /* botões e destaque */
+      --muted: #555555;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+      text-align: center
+    }
+
+    .top {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 14px
+    }
+
+    h1 {
+      font-size: clamp(26px, 4.5vw, 42px);
+      line-height: 1.2;
+      margin: 20px 0;
+      font-weight: 800
+    }
+
+    .hl {
+      color: var(--brand)
+    }
+
+    .hero {
+      position: relative;
+      margin-bottom: 20px
+    }
+
+    .hero img {
+      max-width: 100%;
+      border-radius: 12px
+    }
+
+    .play-btn {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center
+    }
+
+    .play-btn div {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+
+    .play-btn div:after {
+      content: "";
+      display: block;
+      border-style: solid;
+      border-width: 20px 0 20px 32px;
+      border-color: transparent transparent transparent var(--brand);
+      margin-left: 6px
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 18px auto;
+      padding: 16px 26px;
+      border-radius: 10px;
+      background: var(--brand);
+      color: #fff;
+      font-weight: 800;
+      font-size: 20px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, .35)
+    }
+
+    .btn:hover {
+      filter: brightness(1.1)
+    }
+
+    .copy {
+      margin: 20px 0;
+      font-size: 17px;
+      line-height: 1.5;
+      text-align: left
+    }
+
+    .copy strong {
+      color: var(--brand)
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 12px;
+      color: #333;
+      line-height: 1.5;
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 12px
+    }
+
+    footer a {
+      color: #000;
+      margin: 0 8px;
+      text-decoration: underline
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">Posted 12 hours ago • Views: 134,668</div>
+    <h1><span class="hl">SPECIALIST</span> Reveals a Simple Honey Recipe You Can Make at Home</h1>
+
+    <a href="../1">
+      <div class="hero">
+        <img src="image/thumb.png" alt="Video thumbnail">
+        <div class="play-btn">
+          <div></div>
+        </div>
+      </div>
+    </a>
+
+
+    <a href="../1" id="ctaBtn" class="btn">LISTEN NOW</a>
+
+    <div class="copy">
+      <p>This memory-focused method has already been used by thousands of people to support recall, concentration, and mental sharpness.</p>
+      <p>It’s clear, practical, and easy to follow — without exaggerated promises.</p>
+      <p><strong>Tap the button above</strong> to discover how to naturally reinforce your memory and clarity in everyday life.</p>
+    </div>
+
+    <a href="../1" id="ctaBtn2" class="btn">LISTEN NOW</a>
+
+    <footer>
+      <p><a href="../terms">Terms of Use</a> | <a href="../privacy">Privacy Policy</a></p>
+      <p>This site is not part of the YouTube website or Google LLC. It is not endorsed or sponsored by YouTube in any way. YouTube is a registered trademark of Google LLC.</p>
+      <p>The reproduction, distribution or modification, in whole or in part, of this website and its content is strictly prohibited. All content is protected by copyright and intellectual property laws applicable in all countries.</p>
+      <p>The author reserves the right to take legal action in case of non-compliance. Every effort has been made to present this program accurately. There is no guarantee that you will obtain the same results or achieve the mentioned abundance.</p>
+      <p>All Rights Reserved © <span id="year"></span></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
